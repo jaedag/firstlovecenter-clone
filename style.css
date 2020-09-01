@@ -4,10 +4,6 @@
 	font-size: calc(100% + 1vw + 1vh);
 }
 
-.navbar-nav,
-.mr-auto {
-	flex: 1;
-	margin: auto !important;
-	display: flex;
-	justify-content: space-between;
+body { 
+	padding-top: 40px; 
 }

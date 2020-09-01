@@ -13,35 +13,33 @@
     </head>
     <body>
         <!--Beginning of Nav-->
-        <nav class="navbar navbar-dark navbar-expand-xl fixed-top" style="background-color: black">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: black">
             <a class="navbar-brand" href="./index.html"><img src="images/flc-logo-small.png" style="width: 80px" alt="First Love Church Logo"></a>
             <button class ="navbar-toggler" type="button" style="border:none;"
                     data-toggle="collapse" data-target="#myTogglerNav"
                     aria-controls="myTogglerNav"
                     aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button><!--Solve Responsiveness around the md breakpoint-->
-            <div class="container">
+            </button>
                 <div class="collapse navbar-collapse" id="myTogglerNav">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Jesus</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Who We Are</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Global</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Music</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Get Involved</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#conferences">Events</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Books</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Our Stories</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Connect</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#">Location</a>
-                        <a class="nav-item nav-link font-weight-bold align-self-center" href="#dhmmaudio">Media</a>
+                    <div class="navbar-nav mx-auto nav-fill w-100">
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./jesus.html">Jesus</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./index.html#about-flc">Who We Are</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./flc-global-locations.html">Global</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="https://www.myfirstlovemusic.com">Music</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./flc-ministries.html">Get Involved</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./index.html#conferences">Events</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="https://daghewardmillsbooks.org/new/">Books</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./index.html#testimonies">Our Stories</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./index.html#connect">Connect</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./index.html#locate-flc">Location</a>
+                        <a class="nav-item nav-link font-weight-bold align-self-center" href="./index.html#dhmmaudio">Media</a>
                     </div><!--Navbar Items-->
                 </div><!--Collapsible Menu-->
-            </div>
         </nav><!--End of Nav-->
 
         <!--Opening Video-->
-        <header style="height:80vh; background: url(./videos/header-video.mp4) no-repeat center center; background-size: cover; margin-bottom: 0px">
+        <header style="height:80vh; background: url(./videos/header-video.mp4;) no-repeat center center; background-size: cover; margin-bottom: 0px">
             <div class="container d-flex h-75 justify-content-center mt-5">
                 <div class="row justify-content-center align-self-center">
                     <div class="col-12">
@@ -53,10 +51,10 @@
         <!--End of Opening Video-->
 
         <!--About Dag Heward-Mills-->
-        <div class = "container-fluid d-flex align-items-center" style="height:90vh; background: url(./images/about-dag.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px">
-            <div class="container d-flex justify-content-center">
+        <div class = "container-fluid d-flex align-items-center" style=" background: url(./images/about-dag.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px">
+            <div class="container-fluid d-flex justify-content-center my-5">
                 <div class="row row-cols-1 row-cols-md-2 h-100 align-items-center">
-                    <div class="col justify-content-center mb-2">
+                    <div class="col justify-content-center">
                         <h4 class="text-white text-center font-weight-bold">Dag Heward-Mills</h4>
                         <p class="text-white"><b>Dag Heward-Mills is a mega church pastor,  and the founder of the United Denominations Originating from the Lighthouse Group of Churches.</b> Spanning ten denominations, he oversees over 3000 churches on every continent of the globe. Amongst these denominations is the First Love Church.<br>
                                 He is also a prolific, best-selling author, with the best selling Makarios collection of 60 books. His writings have been translated into over 50 languages all over the world.<br>
@@ -74,7 +72,7 @@
         <!--End of About Dag Heward-Mills-->
 
         <!--Start of Message from our Resident Pastor-->
-        <div class="container">
+        <div id="about-flc" class="container">
             <div class="row row-cols align-items-center justify-content-around">
                 <div class="col-md-8 justify-content-center">
                     <h2 class="text-info font-weight-bold text-center">The First Love Center</h2>
@@ -83,18 +81,18 @@
                     <p>A few years later, God has increased us into one of the largest churches in our city. With over 10,000 members and in our new state of the art auditorium, we are even more determined to see the name of Jesus lifted in the city of Accra.</p>
                     <p>Today, thousands of young people gather at our services because we believe that everyone is welcome into the house of God. In a place where soul-winning is our passion, we have seen countless lives changed, saved and renewed in our church.</p>
                     <p>Join us for a life changing encounter with the Word of God, Worship and the Holy Spirit. A Sunday at the First Love Center is more than just a church service, <b>it’s an experience!</b></p>
-                    <div class="text-right mb-4"><img src="./images/resident-pastor-thumbnail.png" loading="lazy" style="width:157px" alt="Bishop Joshua Dag Heward-Mills">
+                    <div id="locate-flc"  class="text-right mb-4"><img src="./images/resident-pastor-thumbnail.png" loading="lazy" style="width:157px" alt="Bishop Joshua Dag Heward-Mills">
                         <br>Joshua Heward-Mills,<br>Resident Pastor
                     </div>
                     <div class="container mb-2 text-center">
                         <a href="https://www.google.com/maps/place/First+Love+Center/@5.6561435,-0.1691452,17z/data=!3m1!4b1!4m5!3m4!1s0xfdf9cbd380ddc8d:0xa068864de4259c2f!8m2!3d5.6561274!4d-0.1669588">
-                            <button type="button" class="btn btn-outline-dark btn-lg rounded-pill">Locate the First Love Center  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <button type="button" class="btn btn-outline-dark rounded-pill text-uppercase">Locate the First Love Center  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                             </svg></button>
                         </a>
                     </div>
                     <div class="container mb-4 text-center">
-                        <a href="./documents/flc-centres-directory.pdf"><button type="button" class="btn btn-outline-dark btn-lg rounded-pill">Worship at One of Our CityWide Weekday Centres  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <a href="./documents/flc-centres-directory.pdf"><button type="button" class="btn btn-outline-dark rounded-pill text-uppercase">Worship at one of our City wide Weekday Centres  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                             </svg></button>
                         </a>
@@ -112,7 +110,7 @@
                         <h2 class="text-light font-weight-bold text-center mb-2" style="text-shadow: 0px 0px 5px #000000;">First Love Channel</h2>
                         <p class="text-light text-center mb-5" style="text-shadow: 0px 0px 5px #000000;">Your ALL ACCESS PASS to everything that is happening in First Love around the globe!</p> 
                         <div class="container mb-4 text-center">
-                            <a href="https://www.youtube.com/channel/UCEBUZZ9Gyaek_l92J728Yuw/videos"><button type="button" class="btn btn-outline-light btn-lg rounded-pill">Watch Free  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <a href="https://www.youtube.com/channel/UCEBUZZ9Gyaek_l92J728Yuw/videos"><button type="button" class="btn btn-outline-light rounded-pill">Watch Free  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                 </svg></button>
                             </a>
@@ -145,7 +143,7 @@
         <!--End of DHMM Audios-->
         
         <!--Start of First Love Collective-->
-        <div class = "container-fluid" style="height:50vh; background: url(./images/flc-collective-bg.jpg) no-repeat center; background-size: cover;">
+        <div id="testimonies" class = "container-fluid" style="height:50vh; background: url(./images/flc-collective-bg.jpg) no-repeat center; background-size: cover;">
             <div class="container d-flex h-100 justify-content-center">
                 <div class="row row-cols align-items-center justify-content-around">
                     <div class="col justify-content-center">
@@ -249,7 +247,7 @@
                         <h2 class="text-light font-weight-bold text-center mb-4" style="text-shadow: 0px 0px 5px #000000;">Understanding Campaign</h2>
                         <p class="text-light text-center mb-5" style="text-shadow: 0px 0px 5px #000000;">Do you want a deeper understanding of your Christianity and the things of God? The Understanding Campaign provides practical and biblical teachings on a myriad of biblical topics.</p> 
                         <div class="container mb-4 text-center">
-                            <a href="#"><button type="button" class="btn btn-outline-light btn-lg rounded-pill">Join a School Today  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <a href="./understanding-schools.html"><button type="button" class="btn btn-outline-light btn-lg rounded-pill">Join a School Today  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                 </svg></button>
                             </a>
@@ -299,8 +297,8 @@
         <!--End of Because We Can-->
 
         <!--Start of Footer-->
-        <div class = "container-fluid align-items-center" style="height:90vh; background: url(./images/footer-bg.jpg) no-repeat center; background-size: cover">
-            <div class="container">
+        <div id="connect" class = "container-fluid align-items-center pb-4" style="background: url(./images/footer-bg.jpg) no-repeat center; background-size: cover">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col align-self-center mt-5"><h2 class="text-light font-weight-bold text-center" style="text-shadow: 0px 0px 5px #000000;">Connect With Us</h2></div> 
                 </div>
@@ -308,43 +306,47 @@
                     <div class="col align-self-center"><p class="text-light text-center mb-4" style="text-shadow: 0px 0px 5px #000000;">Catch the latest sermon from the First Love Center</p> </div>
                 </div>
                 <div class="row row-cols-3 d-flex justify-content-center">
-                    <div class="col-4 d-flex align-self-center justify-content-end">
+                    <div class="col d-flex align-self-center justify-content-center">
                         <a href="https://podcasts.apple.com/gh/podcast/dag-heward-mills/id681758807">
-                            <button type="button" class="btn btn-outline-light" style="margin:0 auto;">iOS<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <button type="button" class="btn btn-outline-light btn-lg text-nowrap" style="margin:0 auto;">iOS<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                              </svg></svg>
                             </button>
                         </a>
                     </div>
-                    <div class="col-3 d-flex justify-content-center">
-                        <img src="./images/podcast-art-flc.png" style="align-self:center; width:100%;" class="img-fluid">
+                    <div class="col d-flex justify-content-center">
+                        <img src="./images/podcast-art-flc.png" style="align-self:center; width: 250px;" class="img-fluid">
                     </div>
-                    <div class="col-5 d-flex align-self-center justify-content-start">
+                    <div class="col d-flex align-self-center justify-content-center">
                         <a href="https://play.google.com/store/apps/details?id=com.app.xjewnebtfugbhpjarqkdcmoirtclvifuhpzgyawsk&hl=en">
-                            <button type="button" class="btn btn-outline-light" style="margin:0 auto;">Android<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg"></button>
+                            <button type="button" class="btn btn-outline-light text-nowrap btn-lg" style="margin:0 auto;">Android<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                              </svg></button>
                         </a>
                     </div> 
                 </div>
-                <div class="row">
-                    <div class="col align-self-center mt-5"><h4 class="text-light font-weight-bold text-center" style="text-shadow: 0px 0px 5px #000000;">Connect With Us Online</h4></div>
+                <div class="row mt-5">
+                    <div class="col align-self-center"><h4 class="text-light font-weight-bold text-center" style="text-shadow: 0px 0px 5px #000000;">Connect With Us Online</h4></div>
                 </div>
                 <div class="row">
                     <div class="col align-self-center"><p class="text-light text-center" style="text-shadow: 0px 0px 5px #000000;">@firstlovecenter</p></div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <a href="https://www.facebook.com/firstlovecenter"><img src="./images/icon-fb.png" class="img-fluid" style="width:100px"></a>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <a href="https://twitter.com/FirstLoveCenter"><img src="./images/icon-twitter.png" class="img-fluid" style="width:100px"></a>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <a href="https://www.instagram.com/firstlovecenter/"><img src="./images/icon-ig.png" class="img-fluid text-right" style="width:100px"></a>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <a href="https://www.youtube.com/channel/UCEBUZZ9Gyaek_l92J728Yuw"><img src="./images/icon-youtube.png" class="img-fluid" style="width:100px"></a>
                     </div>
                 </div>         
-                </div>
             </div>
+        </div>
         <!--End of Footer-->
 
  
